@@ -1,0 +1,57 @@
+#root {
+  display: flex;
+  justify-content: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+.album {
+  display: flex;
+  width: 500px;
+  box-shadow: 4px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  gap: 1rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-top: 5rem;
+}
+.card_img img {
+  border-radius: 15px 0 0 15px;
+  -webkit-border-radius: 15px 0 0 15px;
+  -moz-border-radius: 15px 0 0 15px;
+  -ms-border-radius: 15px 0 0 15px;
+  -o-border-radius: 15px 0 0 15px;
+}
+.card_info {
+  width: 100%;
+}
+.card_info_year {
+  color: gray;
+}
+.card_info_title {
+  color: gray;
+}
+.card_info_gender {
+  display: flex;
+  justify-content: space-between;
+}
+.gender {
+  padding: 7px 10px;
+  height: 20px;
+  border-radius: 1rem;
+  background-color: pink;
+}
+
+.heart-button {
+  display: inline-block;
+  border: none;
+  background: none;
+  display: inline-block;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.heart-button.active .heart {
+  fill: red;
+}
