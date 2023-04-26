@@ -1,4 +1,7 @@
+import "../album/Album.css";
+
 import { useState } from "react";
+
 export default function Album(props) {
   const { imagen, titulo, artista } = props;
   const [active, setActive] = useState(false);

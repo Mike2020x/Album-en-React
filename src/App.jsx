@@ -1,4 +1,3 @@
-import "./components/album/Album.css";
 import Album from "./components/album/Album";
 import img from "./components/album/images.jpeg";
 function App() {
